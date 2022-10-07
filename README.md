@@ -7,11 +7,11 @@ Step 1) Install dependencies and Cypress
 	 1.2) Follow the download instructions on https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
 	
 	2. Option 1) Install Cypress via npm:
-     cd /your/project/path
+     Open a cmd/shell window 
      run: npm install cypress@9.7.0 --save -dev
 	
 	3. Option 2) Installing Cypress via yarn:
-     cd /your/project/path
+     Open a cmd/shell window
      run: yarn add cypress@9.7.0 --save -dev
      
 Step 2) Run the code
