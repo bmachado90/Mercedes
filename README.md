@@ -1,24 +1,26 @@
 # Mercedes
 
 Step 1) Install dependencies and Cypress
-
-  1. install npm , run "npm install"
-  
-  2.Install Cypress via npm:
+	
+	1. Install npm , run "npm install"
+	
+	2. Install Cypress via npm:
      cd /your/project/path
      run: npm install cypress@9.7.0 --save -dev
-  
-  3 Installing Cypress via yarn:
+	
+	3. Installing Cypress via yarn:
      cd /your/project/path
      run: yarn add cypress@9.7.0 --dev
      
 Step 2) Run the code
-    cd /your/project/path
+    
+		cd /your/project/path
     run : npx cypress run
     or run: yarn cypress run
     
 Step 3) Run on Multiple browsers
-    cd /your/project/path
+    
+		cd /your/project/path
     run : npx cypress run --browser chrome (The "browser" argument can be set to chrome, chromium, edge, electron, firefox to launch a browser detected on your system.)
     or run: yarn cypress run --browser chrome (The "browser" argument can be set to chrome, chromium, edge, electron, firefox to launch a browser detected on your system.)
     
