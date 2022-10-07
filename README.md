@@ -2,7 +2,9 @@
 
 Step 1) Install dependencies and Cypress
 	
-	1. Install npm , run "npm install"
+	1. Install npm 
+	 1.1) Go to the page https://nodejs.org/en/download/ and download the installer exe or download the MAC version
+	 1.2) Follow the download instructions on https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
 	
 	2. Install Cypress via npm:
      cd /your/project/path
