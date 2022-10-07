@@ -10,7 +10,7 @@ Step 1) Install dependencies and Cypress
 	
 	3. Installing Cypress via yarn:
      cd /your/project/path
-     run: yarn add cypress@9.7.0 --dev
+     run: yarn add cypress@9.7.0 --save -dev
      
 Step 2) Run the code
     
