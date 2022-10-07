@@ -1,8 +1,8 @@
 # Mercedes
 
-Step 1) Intall dependencies and Cypress
+Step 1) Install dependencies and Cypress
 
-  1. intall npm , run "npm install"
+  1. install npm , run "npm install"
   2.Install Cypress via npm:
      cd /your/project/path
      run: npm install cypress@9.7.0 --save -dev
@@ -27,4 +27,4 @@ Step 4) By default, Cypress will run tests headlessly during cypress run.
     cd /your/project/path
     run : npx cypress run --headed
     or run: yarn cypress run --headed
-       
+
