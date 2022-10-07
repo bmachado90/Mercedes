@@ -3,11 +3,9 @@
 Step 1) Install dependencies and Cypress
 
   1. install npm , run "npm install"
-  
-   2.Install Cypress via npm:
+  2.Install Cypress via npm:
      cd /your/project/path
      run: npm install cypress@9.7.0 --save -dev
-     
   3 Installing Cypress via yarn:
      cd /your/project/path
      run: yarn add cypress@9.7.0 --dev
