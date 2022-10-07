@@ -14,13 +14,13 @@ Step 1) Install dependencies and Cypress
      
 Step 2) Run the code
     
-		cd /your/project/path
+    cd /your/project/path
     run : npx cypress run
     or run: yarn cypress run
     
 Step 3) Run on Multiple browsers
     
-		cd /your/project/path
+    cd /your/project/path
     run : npx cypress run --browser chrome (The "browser" argument can be set to chrome, chromium, edge, electron, firefox to launch a browser detected on your system.)
     or run: yarn cypress run --browser chrome (The "browser" argument can be set to chrome, chromium, edge, electron, firefox to launch a browser detected on your system.)
     
