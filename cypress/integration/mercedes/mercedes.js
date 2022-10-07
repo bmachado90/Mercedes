@@ -104,7 +104,7 @@ When('I save the highest price results in a text file', () => {
     cy.get("#cc-app-container-main > div.cc-app-container__main-frame.cc-grid-container > div.cc-grid-container.ng-star-inserted > div > div:nth-child(2) > cc-motorization > cc-motorization-comparison > div > div > div:nth-child(1) > wb-card > div.cc-motorization-comparison-header-wrapper > cc-motorization-header > div > div > div.wb-type-copy-strong.cc-motorization-header__price.cc-text.ng-star-inserted"
      ,{ includeShadowDom: true }).then(function($elem) {
         cy.log($elem.text()) 
-    cy.writeFile('cypress/TXTFile/message.txt', "Highest Price: "+$elem.text(),{ flag: 'a+' })
+    cy.writeFile('cypress/TXTFile/message.txt', "Highest Price: "+$elem.text()+"\n",{ flag: 'a+' })
     })   
 })
 
